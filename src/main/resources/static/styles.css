@@ -1,0 +1,56 @@
+.email-image {
+	width: 20%;
+	position: relative;
+}
+
+.flower-image {
+	width: 20%;
+	position: relative;
+}
+
+.header {
+	color: #a31aff;
+	font-weight: bold;
+	opacity: 1;
+	font-family: "Papyrus", Fantasy;
+}
+
+.foreground {
+	position: relative;
+}
+
+.background {
+	font-weight: bold;
+}
+
+.background::before {
+	content: "";
+	background-image: url(https://coolbackgrounds.io/images/backgrounds/index/sea-edge-79ab30e2.png);
+	background-size: cover;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	opacity: 0.85;
+}
+
+.confirmation {
+	color: #a31aff;
+	font-family: "Papyrus", Fantasy;
+	font-weight: bold;
+}
+
+.info {
+	color: #e600e6;
+	font-family: "Bradley Hand", Cursive;
+	font-size: x-large;
+}
+
+.btn-secondary {
+	background-color: #80aaff !important;
+}
+
+.btn-secondary:hover {
+	background-color: #6699ff !important;
+}
